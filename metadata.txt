@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=MINDED FBA
+qgisMinimumVersion=3.0
+description=A non-supervised remote sensing tool for the determination of both flooded or burned extents.
+version=0.1
+author=Oliveira et al., 2022
+email=eduardo.oliveira@ua.pt
+
+about=The MINDED-FBA is a non-supervised remote sensing approach for the determination of both flooded or burned extents. The tool is freely distributed as a QGIS plugin, consisting of an adaptation and development of the Multi Index Image Differencing Method (MINDED) (Oliveira et al., 2019 and 2021). The MINDED tool allows integrating a diversity of satellite datasets, including multispectral, SAR or a combination of both - data fusion.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
